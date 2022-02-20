@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.hero-container,
+.footer {
+  flex: 1;
+  padding: 25px;
+  background-color: #1F2937;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-main {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.hero-secondary,
+a {
+  color: #E5E7EB;
+  font-size: 16px;
+}
+
+.hero-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+}
+
+.hero-container {
+  display: flex;
+  padding: 5px 75px 100px 75px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-content {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 100px
+}
+
+.label {
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.info-container {
+  margin: 75px 150px;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.information {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.details {
+  align-self: center;
+}
+
+img {
+  max-width: 300px;
+}
+
+.text {
+  flex-wrap: wrap;
+  font-size: 14px;
+  text-align: center;
+  color: #1F2937;
+}
+
+.quote-container {
+  flex: 1;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  padding: 75px 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+button {
+  padding: 4px 18px;
+  border-radius: 8px;
+}
+
+.call-action,
+.action,
+.signup {
+  background-color: #3882F6;
+  border-color: white;
+}
+
+button.action {
+  border: 1px solid #3882F6;
+}
+
+button.signup {
+  border: 1px solid #E5E7EB;
+  align-self: center;
+}
+
+.call-action {
+  margin: 75px 150px;
+  padding: 25px 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
